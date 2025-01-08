@@ -5,6 +5,7 @@ const App = () => {
   const [count, setCount] = useState(0);
   const [products, setProducts] = useState([]);
 
+
   async function fetchProducts() {
     try {
       const response = await fetch(
